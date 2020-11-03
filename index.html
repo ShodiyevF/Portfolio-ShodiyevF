@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ShodiyevF</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="offline/fontawesome/css/all.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body class="site-body">
+
+	<header class="site-header">
+
+		<a class="btn site-header__link" href="pages/registration/index.html">Registration</a>
+
+	</header>
+
+	<main class="site-main">
+		
+		<div class="container">
+			
+			<a class="site-main__link" href="index.html">
+				<img class="site-main__link-img" src="img/logo.png" alt="logo">
+			</a>
+
+
+			<div class="site-main__btn-wrapper">
+
+				<a class="site-main__btn btn" href="pages/about/index.html">About</a>
+				<a class="site-main__btn btn" href="pages/contactus/index.html">Contact Us</a>
+
+			</div>
+
+			<button class="modal-toggler" type="button"></button>	
+		</div>
+
+	</main>
+
+	<footer class="site-footer">
+
+		<ul class="site-footer__icons-list">
+
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon coin-icon1"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon"></i>
+				</a>
+			</li>
+			<li class="site-footer__icons-item">
+				<a class="site-footer__icons-link" href="">
+					<i class="fab fa-bitcoin coin-icon coin-icon2"></i>
+				</a>
+			</li>
+
+		</ul>
+
+		<a class="site-footer__btn site-footer__btn--none btn" href="pages/projects/index.html">My Projects</a>
+
+	</footer>
+
+	<section class="modal">
+		<div class="modal__wrapper">
+			<div class="modal__content-wrapper">
+
+				<button class="modal-close-btn modal-btn" type="button"></button>
+
+				<div class="modal-btns">
+
+					<a class="btn site-header__link site-header__link--margin modal-btn" href="pages/registration/index.html">Registration</a>
+					
+					<a class="site-footer__btn--block modal-btn btn" href="pages/projects/index.html">My Projects</a>
+
+				</div>
+				
+				<ul class="site-footer__icons-list site-footer__icons-list--list">
+
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon coin-icon1"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon"></i>
+						</a>
+					</li>
+					<li class="site-footer__icons-item">
+						<a class="site-footer__icons-link" href="">
+							<i class="fab fa-bitcoin coin-icon coin-icon2"></i>
+						</a>
+					</li>
+
+				</ul>
+
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		var modalToggler = document.querySelector('.modal-toggler');
+		var modalclosebtn = document.querySelector('.modal-close-btn');
+		var elModal = document.querySelector('.modal');
+
+		modalToggler.addEventListener('click', function (){
+			elModal.classList.add('modal--open');
+		});
+
+		modalclosebtn.addEventListener('click', function (){
+			elModal.classList.remove('modal--open');
+		});
+
+
+		// var elModalToggler = document.querySelector('.modal-toggler');
+		// var elModal = document.querySelector('.modal');
+		// var elModalClose = document.querySelector('.modal__close');
+
+		// elModalToggler.addEventListener('click', function (){
+		// 	elModal.classList.add('modal--open');
+		// });
+
+		// elModalClose.addEventListener('click', function () {
+		// 	elModal.classList.remove('modal--open');
+		// });
+
+
+	</script>
+
+	<script src="https://kit.fontawesome.com/d62e2ecb8d.js" crossorigin="anonymous"></script>
+</body>
+</html>

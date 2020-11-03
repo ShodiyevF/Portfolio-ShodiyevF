@@ -1,0 +1,180 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Rubik", "Arial", sand-serif;
+	background: #F6F6F9;
+	border-top: 4px solid #295093;
+	margin-top: -0px;
+	margin-left: -4px;
+	width: 1440px;
+}
+body a{
+	text-decoration: none;
+}
+.container{
+	margin-top: 44px;
+	margin-left: 119px;
+	margin-right: 119px;
+}
+header{
+	/*background-color: red;*/
+}
+.head_1{
+	width: 1200px;
+	display: flex;
+	align-items: center;
+}
+.head_1_1_logo{
+	width: 320px;
+	height: 40px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.head_1_2_valyuta ul{
+	display: flex;
+	list-style-type: none;
+	margin-left: -40px;
+}
+.head_1_2_valyuta ul li{
+	display: flex;
+	padding-left: 20px;
+}
+.head_1_2_valyuta_1_1{
+	padding-left: 0px;
+}
+.head_1_3_telegram{
+	width: 146px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1E96C8;
+	border-radius: 5px;
+	margin-left: 470px;
+}
+.head_1_3_telegram a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.head_1_3_telegram img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.head_1_3_telegram p{
+	color: white;
+}
+.head_1_2{
+	margin-top: 20px;
+}
+.head_1_2_caty1{
+	width: 1200px;
+	height: 68px;
+	background: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head_1_2_caty1_1{
+	list-style-type: none;
+	display: flex;
+}
+.head_1_2_caty1_1 li{
+	padding-left: 20px;
+	color: black;
+	font-size: 19px;
+}
+.head_1_2_caty1_1_1{
+	margin-left: -80px;
+}
+.head_1_2_rek1{
+	margin-top: 20px;
+}
+main{
+	background-color: 
+}
+.input{
+	width: 50%;
+	height: 587px;
+	display: flex;
+	flex-direction: column;
+}
+.inputs{
+	height: 30px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #285193;
+	margin-bottom: 20px;
+}
+.textarea{
+	height: 307px;
+	padding: 16px 15px;
+	margin-bottom: 20px;
+}
+.inputs-5{
+	width: 221px;
+	height: 50px;
+}
+.flex-password{
+	width: 327px;
+	height: 50px;
+	display: flex;
+	padding: 0px;
+	margin-bottom: 20px;
+	align-items: center;
+	/*padding-top: -20px;*/
+	/*background-color: red;*/
+}
+.flex-password h4{
+	/*background-color: yellow;*/
+	margin-left: 18px;
+}
+.flex-password input{
+	margin: 0px;
+	/*background-color: purple;*/
+}
+.main-button{
+	width: 221px;
+	height: 50px;
+	background-color: #295093;
+	border: none;
+	padding: 10px;
+	/*padding-bottom: 20px;*/
+	color: white;
+	border-radius: 5px;
+}
+.card{
+	width: 510px;
+	height: 280px;
+	border: 1px solid #BCC3CD;
+	border-radius: 5px;
+	padding-top: 23px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-bottom: 29px;
+	/*background-color: red;*/
+}
+.left-right{
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-around;
+}
+.cardright{
+	justify-content: flex-end;
+}
+.telegram a{
+	width: 150px;
+	height: 33px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #295091;
+
+}

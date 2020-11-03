@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Futura PT";
+	src: url("../../../fonts/subset-FuturaPT-Book.woff2") format("woff2"),
+	url("../../../fonts/subset-FuturaPT-Book.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Futura PT";
+	src: url("../../../fonts/subset-FuturaPT-Bold.woff2") format("woff2"),
+	url("../../../fonts/subset-FuturaPT-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: bold;
+	font-display: swap;
+}
+
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Futura PT" , sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	/*background-color: #fff;*/
+	color: #222;
+
+	background: #2b5876;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	/*VAQTINCHA STILLAR*/
+	display: flex;
+	font-weight: bold;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	/*VAQTINCHA STILLAR*/
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1365px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-attention__title , .text-attention__text{
+	color: white;
+}
+
+.btn{
+	/*display: block;*/
+	padding: 10px;
+	background: #E55D87;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	margin-top: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+
+
+}

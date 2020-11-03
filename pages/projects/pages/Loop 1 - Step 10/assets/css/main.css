@@ -1,0 +1,242 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto","Arial", sans-serif;
+  font-size: 16px;
+  /*margin-top: 50px;*/
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.heading{
+  /*width: 100vh;*/
+  padding-top: 30px;
+}
+
+.container {
+  width: 1365px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: yellow;*/
+}
+
+.heading-items{
+  /*margin-top: 30px;*/
+  /*width: 900px;*/
+}
+
+.heading-items{
+  display: flex;
+  align-items: center;
+  /*padding: 0;*/
+  /*background-color: red;*/
+}
+.top-logo{
+  width: 50px;
+  height: auto;
+  padding: 0;
+  /*background-color: purple; */
+}
+
+.logo-link{
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.heading-menu{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-item{
+  /*background-color: red;*/
+  text-align: center;
+  margin-right: 30px;
+  /*background-color: red;*/
+  /*transition: all 0.5s ease;*/
+}
+.menu-item:hover::after{
+  transition: background-color 0.5s ease;
+  background-color: black;
+  /*content: "";*/
+  /*margin-right: 20px;*/
+  /*border: 1px solid red;*/
+}
+.menu-item::after{
+  display: block;
+  width: 100%;
+  /*bottom: 0%;*/
+  height: 3px;
+  content: "";
+}
+.menu-item a{
+  display: block;
+  /*padding-bottom: 50px;*/
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.heading-search{
+  /*height: 100pxs;*/
+  /*display: block;*/
+  width: 160px;
+  background-color: red;
+  font-weight: bold;
+  /*padding-right: -20px;*/
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+}
+.freedom{
+}
+.test{
+  height: 620px;
+  background-image: url("../img/watches.jpg");
+  background-repeat: no-repeat;
+  background-size: 620px;
+  background-position: right -40% top;
+
+}
+.freedom-name{
+  padding-top: 100px;
+  width: 390px;
+}
+.freedom-h1{
+  padding: 0;
+  margin-top: 0;
+  font-size: 35px;
+}
+.freedom-p{
+  border-left: 1px solid gray;
+  padding-left: 40px;
+  color: gray;
+}
+.btn{
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  margin-top: 50px;
+  color: white;
+  background-color: red;
+}
+.hr{
+  margin-top: -24px;
+}
+.know-list{
+  display: flex;
+  list-style-type: none;
+}
+.know-item{
+  width: 240px;
+  margin-right: auto;
+}
+.know-item h2{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.know-item p{
+
+}
+.know-item:nth-child(3){
+  margin-right: 0;
+  /*background-color: red;*/
+}
+.know-dotts{
+  padding: 0;
+  margin: 0;
+  margin-top: -30px;
+  font-size: 30px;
+  color: gray;
+}
+.know-learn{
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  /*padding-left: 10px;*/
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.know-learn:hover::before{
+  width: 50px;
+}
+
+.know-learn::before{
+  transition: 0.3s ease;
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  margin-right: 5px;
+  background-color: red;
+  content: "";
+}
+
+.nike{
+  margin-bottom: -650px;
+}
+
+.nike-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nike-img{
+  width: 400px;
+  height: 600px;
+}
+.take{
+  /*width: 100vh;*/
+  min-height: 100vh;
+  background-image: url("../img/runners.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.take-left{
+  /*display: flex;
+  flex-direction: co*/lumn;
+  /*align-items: center;*/
+  /*margin-: 10px;*/
+  margin-top: 50%; 
+  margin-left: 50%;
+}
+.take-h1,.take-p{
+  color: white;
+}

@@ -1,0 +1,117 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #181F2B;
+}
+.cont_4_1_card2{
+	display: flex;
+	/*justify-content: space-around;*/
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 201px;
+}
+.test1{
+	margin-right: 40px;
+}
+.test2{
+	margin-right: 40px;
+}
+.cont_4_1_card2_1{
+	width: 360px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	background-color: #202A3C;
+	/*padding: 30px;*/
+	border-radius: 4px;
+	box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+}
+.cont_4_1_card2_1 h3{
+	width: 309.3px;
+	height: 84px;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 21px;
+	margin-left: 26px;
+	margin-top: 40px;
+	margin-right: 24.7px;
+	margin-bottom: 76px;
+	/*background-color: red;*/
+}
+.cont_4_1_card2_1_2{
+	width: 120px;
+	height: 26px;
+	/*background-color: red;*/
+	display: flex;
+	margin-top: -50px;
+	margin-bottom: 26px;
+	margin-left: 26px; 
+}
+.cont_4_1_card2_1_2 img{
+	padding-right: 8px;
+}
+.cont_4_1_card2_1_2 div h4{
+	font-size: 10px;
+	margin-top: 0px;
+	color: white;
+	line-height: 12px;
+}
+.cont_4_1_card2_1_2 div p{
+	color: white;
+	font-size: 7px;
+	margin-top: -10px;
+	line-height: 12px;
+}
+.cont_5{
+	display: flex;
+	justify-content: center;
+}
+.cont_5_1_get{
+	width: 863px;
+	height: 275px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #1B2330;
+	border-radius: 9px;
+}
+.cont_5_1_get h1{
+	color: white;
+	font-size: 32px;
+	margin-top: 42px;
+	margin-bottom: 16px;
+}
+.cont_5_1_get p{
+	width: 673px;
+	height: 42px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 38px;
+}
+.cont_5_1_get div .cont_5_1_get_3_1{
+	width: 480px;
+	/*height: 48px;*/
+	padding: 16px 40px;
+	border: none /*2px solid #979797*/;
+	border-radius: 24px;
+	/*padding-left: 60px;*/
+}
+.cont_5_1_get div .cont_5_1_get_3_2{
+	width: 200px;
+	height: 48px;
+	background-color: #63E1D9;
+	border-radius: 24px;
+	border: none /*2px solid #979797*/;
+	color: white;
+	margin-bottom: 41px;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+/*footer{
+	height: 517px;
+ 	background-color: #0B1524;
+}
+.foot_1_1_logo_lorem{
+	
+}*/
