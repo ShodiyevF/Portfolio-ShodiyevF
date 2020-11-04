@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'Rubik';
-  src: url('../fonts/Rubik-Light.woff2') format('woff2'),
-  url('../fonts/Rubik-Light.woff') format('woff');
+  font-family: "Rubik";
+  src: url("../../fonts/subset-FuturaPT-Book.woff2") format("woff2"),
+  url("../../fonts/subset-FuturaPT-Book.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url('../fonts/Rubik-LightItalic.woff2') format('woff2'),
-  url('../fonts/Rubik-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
+  font-family: "Futura PT";
+  src: url("../../fonts/subset-FuturaPT-Bold.woff2") format("woff2"),
+  url("../../fonts/subset-FuturaPT-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
   font-display: swap;
 }
 
@@ -30,7 +30,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Rubik" , sans-serif;
+  font-family: "Futura PT" , sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -65,13 +65,14 @@ img {
 }
 
 .heading h1{
-	text-align: center;
+  text-align: center;
+  font-weight: 700;
 }
 
 .img{
-	width: 300px;
-	height: auto;
-	border-top-left-radius: 10px;
+  width: 300px;
+  height: auto;
+  border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-left: 10px;
 }
@@ -87,26 +88,30 @@ img {
   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
 }
 
-.p-malumot{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 @media only screen and (max-width: 720px){
-
+  
   body{
     font-size: 10px;
+    background-image: url("img/Lemon Twist.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .img{
+    
+    border-radius: 10px;
   }
 
   .img-p-wrapper{
     position: relative;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: #33D35E 0px 2px 4px 0px, #2AB6D9 0px 2px 16px 0px;
-    /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+    padding: 10px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+    box-shadow: #33D35E 0px 2px 4px 0px, #2AB6D9 0px 2px 16px 0px;
     background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
-}
+  }
 }
