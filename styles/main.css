@@ -197,15 +197,21 @@ img {
 /*MODAL TUGADI*/
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 331px){
 	
 	.site-body{
 		height: 100vh;
+		font-size: 5000px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	
+	.container{
+		display: flex;
+		/* justify-content: space-between; */
+	}
+
 	.site-main{
 		display: flex;
 		align-items: center;
@@ -216,7 +222,6 @@ img {
 	}
 	
 	.site-header {
-		/* background-color: red; */
 		margin-left: 50px;
 	}
 	
@@ -612,6 +617,32 @@ img {
 }
 
 @media only screen and (max-width: 5560px){
+	
+	.site-header {
+		margin-left: auto /*calc(50% + 275px)*/;
+		margin-right: 5px;
+	}
+	
+	.site-footer{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.site-footer__icons-list {
+		margin: 0;
+		margin-right: auto /*calc(50% - 310px)*/;
+		margin-left: 10px;	
+	}
+	
+	.site-footer__btn {
+		white-space: nowrap;
+		margin-right: 10px;
+		margin-left: auto /*calc(50% + 205px)*/;
+	}
+	
+}
+
+@media only screen and (max-width: 25000px){
 	
 	.site-header {
 		margin-left: auto /*calc(50% + 275px)*/;
