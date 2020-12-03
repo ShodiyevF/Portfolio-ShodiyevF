@@ -642,7 +642,7 @@ img {
 	
 }
 
-@media only screen and (max-width: 25000px){
+@media only screen and (min-width: 25000px){
 	
 	.site-header {
 		margin-left: auto /*calc(50% + 275px)*/;
